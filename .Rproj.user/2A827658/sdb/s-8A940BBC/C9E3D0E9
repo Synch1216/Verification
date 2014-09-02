@@ -1,12 +1,12 @@
 {
-    "contents" : "# What version of R and R Studio are you using?\n<R.Version()>\n#R Version 3.1.1 (2014-07-10)\n# What version of PostgreSQL do you have installed?\n<ls>\n#I have postgreSQL-9.3.5-1-osz.app\n# How many observations are in sales?\n<show(sales)>\n  \n# There are 401,146 observations. \n",
+    "contents" : "# What version of R and R Studio are you using?\n<R.Version()>\n#R Version 3.1.1 (2014-07-10), RStudio Version 0.98.1028\n# What version of PostgreSQL do you have installed?\n<ls>\n#I have postgreSQL-9.3.5-1-osz.app\n# How many observations are in sales?\n<show(sales)>\n  \n# There are 401,146 observations. \n",
     "created" : 1409648497844.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1901920129",
+    "hash" : "1969528928",
     "id" : "C9E3D0E9",
-    "lastKnownWriteTime" : 1409648918,
+    "lastKnownWriteTime" : 1409649546,
     "path" : "~/Verification/Verifications.R",
     "project_path" : "Verifications.R",
     "properties" : {
