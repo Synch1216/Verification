@@ -1,0 +1,17 @@
+{
+    "contents" : "#1. Assign five individuals to a vector called queue:\n> queue <-c(\"James\",\"Mary\",\"Steve\",\"Alex\", \"Patricia\")\n#> queue\n#[1] \"James\"    \"Mary\"     \"Steve\"    \"Alex\"     \"Patricia\"\n#2. Update queue to reflect arrival of Harold.\nx <-list(queue)\n#x[[\"Harold\"]] <- 6\n#3. Reflect the queue as if James has finished.\n#> class(x[1,1, drop])\n#4. Patricia talks her way in front of Steve:\n#>queue <-c(\"Mary\",\"Patricia\",\"Steve\", \"Alex\",\"Harold\")\n#5. Harold grows impatient and leaves:\n#>queue <-c(\"Mary\",\"Patricia\",\"Steve\", \"Alex\")\n#6. rm[[\"Alex\"]]\n#7.list[1,2]\n#8. nrow(x)",
+    "created" : 1410279572224.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "738637207",
+    "id" : "99101049",
+    "lastKnownWriteTime" : 1410293430,
+    "path" : "~/Verification/Vector.R",
+    "project_path" : "Vector.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
