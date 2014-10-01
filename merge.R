@@ -25,3 +25,4 @@ subset(priceModel.df, Year = 2010, select c("Make", "Model"))
 subset(priceModel.df, Color = "Red","Price" > 10000 )
 #5
 priceModel.df[c(-1,-3)]
+as.Date("2014-09-19")- as.Date("1916-04-30")
