@@ -39,4 +39,4 @@ No <- dframe %>% select (Votes) %>%
 novotes <- No/dtotal
 novotes
 
-#5. I think that more useful questions to ask would have been to find out the percentages of No votes by age range.
+#5.I think that more useful questions to ask would have been to find out the percentages of No votes by age range.
