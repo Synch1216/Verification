@@ -16,3 +16,4 @@ data <- data.frame(I,II,III,IV)
 data
 summary(data)
 barplot(as.matrix(data))
+

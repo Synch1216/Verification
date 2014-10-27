@@ -1,0 +1,46 @@
+#Merged the price and model stats from two sets. 
+
+```{r}
+setwd('~/Desktop')
+getwd()
+price <- read.csv('~/Desktop/week-4-price-data.csv', header=T)
+price
+model <- read.csv('~/Desktop/week-4-make-model-data.csv', header=T)
+model
+priceModel.df = merge(price, model)
+priceModel.df
+
+```
+
+## The summary of the *priceModel* data frame
+```{r}
+#attach(priceModel.df)
+#names(priceModel.df)
+#priceModel.df[ModelNumber, 2010]
+#detach(priceModel.df)
+#priceModel.df[,1]
+#priceModel.df[,8]
+#attach(priceModel.df)
+#names(priceModel.df)
+#detach(priceModel.df)
+#subset(priceModel.df, Year = 2010, select c("Make", "Model"))
+summary(priceModel.df)
+
+```
+
+
+#4
+```{r}
+subset(priceModel.df, Color = "Red","Price" > 10000 )
+
+```
+
+#5
+```{r}
+
+#hist(price$price)
+
+```
+I tried to make a histogram of the distribution of prices but it would not render. Basically, what we can see from this analysis is that Camry was the most popular vehicle in the sample.
+
+
