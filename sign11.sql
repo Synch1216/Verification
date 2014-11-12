@@ -3,11 +3,11 @@
   weather.month, 
   weather.day, 
   weather.hour, 
-  weather.wind_dir
-  (select case
+  weather.wind_dir,
+(select case
 when wind_dir <=90 then 'North'
-when wind_dir > 90 then and wind_dir <=180 then 'East'
-when wind_dir > 180 then and wind_dir <= 270 then 'South' 
+when wind_dir > 90 and wind_dir <=180 then 'East'
+when wind_dir > 180 and wind_dir <= 270 then 'South' 
 else 'West'
 end as the_wind_direction)
 FROM 
